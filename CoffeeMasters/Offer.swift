@@ -17,9 +17,11 @@ struct Offer: View {
             Text(title)
                 .padding()
                 .font(.title)
-                .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                .background(Color("CardBackground"))
             Text(description)
                 .padding()
+                .background(Color("CardBackground"))
+
         }
     }
 }
